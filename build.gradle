@@ -3,7 +3,7 @@ plugins {
   id 'checkstyle'
   id 'pmd'
   id 'jacoco'
-  id 'io.spring.dependency-management' version '1.1.2'
+  id 'io.spring.dependency-management' version '1.1.3'
   id 'org.springframework.boot' version '3.1.2'
   id 'org.owasp.dependencycheck' version '8.3.1'
   id 'com.github.ben-manes.versions' version '0.47.0'
@@ -181,7 +181,7 @@ dependencyManagement {
   dependencies {
     dependency group: 'org.bouncycastle', name: 'bcpkix-jdk15on', version: '1.70'
     // CVE-2018-10237 - Unbounded memory allocation
-    dependencySet(group: 'com.google.guava', version: '32.1.2-jre') {
+    dependencySet(group: 'com.google.guava', version: '32.0.1-jre') {
       entry 'guava'
     }
   }
@@ -198,8 +198,8 @@ dependencies {
   implementation group: 'org.springframework.boot', name: 'spring-boot-starter-actuator'
   implementation group: 'org.springframework.boot', name: 'spring-boot-starter-aop'
   implementation group: 'org.springframework.boot', name: 'spring-boot-starter-json'
-  implementation group: 'org.springdoc', name: 'springdoc-openapi-starter-webmvc-ui', version: '2.1.0'
-  implementation group: 'org.yaml', name: 'snakeyaml', version: '2.0'
+  implementation group: 'org.springdoc', name: 'springdoc-openapi-starter-webmvc-ui', version: '2.2.0'
+  implementation group: 'org.yaml', name: 'snakeyaml', version: '2.1'
   implementation group: 'com.github.hmcts.java-logging', name: 'logging', version: '6.0.1'
   implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: log4JVersion
   implementation group: 'org.apache.logging.log4j', name: 'log4j-to-slf4j', version: log4JVersion
@@ -213,7 +213,7 @@ dependencies {
   }
 }
 
-mainClassName = 'uk.gov.hmcts.labs.LaurenceRawlings.Application'
+mainClassName = 'uk.gov.hmcts.labs.laurencerawlings.Application'
 
 bootJar {
   getArchiveFileName().set(provider {

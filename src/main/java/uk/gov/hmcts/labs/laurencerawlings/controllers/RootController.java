@@ -1,4 +1,4 @@
-package uk.gov.hmcts.labs.LaurenceRawlings.controllers;
+package uk.gov.hmcts.labs.laurencerawlings.controllers;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
@@ -25,7 +25,7 @@ public class RootController {
         @ApiResponse(responseCode = "404", description = "No welcome could be found")
     })
     @RequestMapping(value = "/", method = GET, produces = TEXT_PLAIN_VALUE)
-    
+
     public ResponseEntity<String> welcome() {
         return ok("Welcome to labs-LaurenceRawlings application");
     }

@@ -1,4 +1,4 @@
-package uk.gov.hmcts.labs.LaurenceRawlings.config;
+package uk.gov.hmcts.labs.laurencerawlings.config;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
