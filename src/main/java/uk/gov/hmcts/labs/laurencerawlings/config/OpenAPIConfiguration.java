@@ -1,4 +1,4 @@
-package uk.gov.hmcts.labs.LaurenceRawlings.config;
+package uk.gov.hmcts.labs.laurencerawlings.config;
 
 import io.swagger.v3.oas.models.ExternalDocumentation;
 import io.swagger.v3.oas.models.OpenAPI;

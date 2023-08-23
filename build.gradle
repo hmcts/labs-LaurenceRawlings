@@ -213,7 +213,7 @@ dependencies {
   }
 }
 
-mainClassName = 'uk.gov.hmcts.labs.LaurenceRawlings.Application'
+mainClassName = 'uk.gov.hmcts.labs.laurencerawlings.Application'
 
 bootJar {
   getArchiveFileName().set(provider {

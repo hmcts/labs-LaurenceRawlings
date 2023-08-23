@@ -1,4 +1,4 @@
-package uk.gov.hmcts.labs.LaurenceRawlings;
+package uk.gov.hmcts.labs.laurencerawlings;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
