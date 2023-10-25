@@ -3,10 +3,10 @@ appVersion: "1.0"
 description: A Helm chart for labs-LaurenceRawlings App
 name: labs-LaurenceRawlings
 home: https://github.com/hmcts/labs-LaurenceRawlings
-version: 0.0.7
+version: 0.0.8
 maintainers:
   - name: HMCTS labs team
 dependencies:
   - name: java
-    version: 4.1.5
+    version: 4.2.0
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
